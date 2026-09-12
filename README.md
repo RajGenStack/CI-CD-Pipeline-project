@@ -13,6 +13,19 @@ A three-tier MERN blogging application (React and Vite frontend, Node.js/Express
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
+<p>
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/RajGenStack/CI-CD-Pipeline-project?style=flat-square&labelColor=0d1117&color=ff6b35">
+  <img alt="Top language" src="https://img.shields.io/github/languages/top/RajGenStack/CI-CD-Pipeline-project?style=flat-square&labelColor=0d1117&color=8b949e">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RajGenStack/CI-CD-Pipeline-project?style=flat-square&labelColor=0d1117&color=8b949e">
+  <img alt="License" src="https://img.shields.io/github/license/RajGenStack/CI-CD-Pipeline-project?style=flat-square&labelColor=0d1117&color=8b949e">
+</p>
+
+## What this demonstrates
+
+- A pipeline where security gates can fail the build: Trivy, OWASP Dependency-Check and a SonarQube quality gate
+- Separating CI from CD, with delivery driven by a commit to Kubernetes manifests rather than a direct push to the cluster
+- Running a three-tier application with MongoDB and Redis under both Docker Compose and Kubernetes
+
 ## Pipeline
 
 ```mermaid
